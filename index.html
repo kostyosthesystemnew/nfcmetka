@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFC BY KOSTY</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #image {
+            cursor: pointer;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
-    <img src="file-6rByiWxDp4.png" alt="image" id="image" style="cursor: pointer; width: 300px;">
+    <img src="file-6rByiWxDp4.png" alt="image" id="image">
     <audio id="audio" src="file.mp3"></audio>
     <script>
         const image = document.getElementById('image');
